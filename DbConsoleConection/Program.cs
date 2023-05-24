@@ -8,8 +8,8 @@ ListBusinesses();
 void ListBusinesses()
 {
 	using (SqlConnection conn = new	SqlConnection(
-        //"Server=LAPTOP-5LC5ROF4\\SQLEXPRESS;Database=DbProject;User Id=Uczen;Password=; Trusted_Connection=False"
-        "Data Source=LAPTOP-5LC5ROF4\\SQLEXPRESS;Initial Catalog=DbProject;User id=Uczen;Password=;Integrated Security=True;MultipleActiveResultSets=True"
+       
+        "Data Source=LAPTOP-XXXXXXX\\SQLEXPRESS;Initial Catalog=DBName;User id=UserName;Password=;Integrated Security=True;MultipleActiveResultSets=True"
 
         ))
 	{
